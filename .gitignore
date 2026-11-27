@@ -222,3 +222,25 @@ _vizdoom.ini
 
 # Local validator / scorer artifacts
 *.lmp
+
+# Temporary source archives
+/official_source.zip
+/training_source.zip
+/objective_source.zip
+
+# Backup checkpoints
+/training/stage1_backup.pt
+/training/trained_204800_backup.pt
+/training/trained_409600_backup.pt
+/training/trained_objective_backup.pt
+/training/trained_keys_initial_backup.pt
+/training/trained_709632_backup.pt
+
+# Duplicate source backups
+/training/train_original.py
+/training/curriculum_original.py
+/training/reward_wrapper_original.py
+
+# Python cache
+__pycache__/
+*.pyc
